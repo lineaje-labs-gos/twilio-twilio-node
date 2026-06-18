@@ -1,12 +1,16 @@
 {
   "name": "twilio",
   "description": "A Twilio helper library",
-  "version": "4.12.0",
+  "version": "4.12.0-lineaje-01",
   "author": "API Team <api@twilio.com>",
   "contributors": [
     {
       "name": "twilio-node contributors",
       "url": "https://github.com/twilio/twilio-node/graphs/contributors"
+    },
+    {
+      "name": "Lineaje DepFixer",
+      "email": "221268890+Lineaje-DepFixer@users.noreply.github.com"
     }
   ],
   "keywords": [
@@ -17,7 +21,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/twilio/twilio-node.git"
+    "url": "https://github.com/lineaje-labs-gos/twilio-twilio-node"
   },
   "dependencies": {
     "axios": "^0.26.1",
