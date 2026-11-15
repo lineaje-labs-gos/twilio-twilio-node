@@ -24,7 +24,7 @@
     "url": "https://github.com/lineaje-labs-gos/twilio-twilio-node"
   },
   "dependencies": {
-    "axios": "^1.6.0",
+    "axios": ">=1.21.1",
     "dayjs": "^1.11.9",
     "https-proxy-agent": "^5.0.0",
     "jsonwebtoken": "^9.0.0",
@@ -81,9 +81,13 @@
   },
   "license": "MIT",
   "overrides": {
-    "form-data": ">=4.0.6"
+    "form-data": ">=4.0.6",
+    "axios": ">=1.21.1",
+    "follow-redirects": ">=1.16.3"
   },
   "resolutions": {
-    "form-data": ">=4.0.6"
+    "form-data": ">=4.0.6",
+    "axios": ">=1.21.1",
+    "follow-redirects": ">=1.16.3"
   }
 }
